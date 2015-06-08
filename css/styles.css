@@ -68,7 +68,7 @@ li {
 
 .row {
   background-color: lightgrey;
-  height: 800px;
+  height: auto;
   margin-top: 61px;
 
   margin-right: -165px;
@@ -78,20 +78,31 @@ li {
 .main {
   background-color: white;
   margin-right: 50px;
-  height:800px;
+  height:auto;
   margin-top: 90px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.col-md-6 {
+  margin-top: 55px;
+
+
 }
 
 .article {
-  background-color: green;
+  background: url("../neil.jpeg");
   height: 200px;
   width: 45%;
   margin-right: 10px;
   margin-left: 15px;
+  height: 350px;
 }
 
 .article1 {
+  background: url("../neil.jpeg");
   background-color: green;
   height: 200px;
   width: 45%;
-  margin-left: 80px;}
+  margin-left: 80px;
+  height: 350px;
+  }
