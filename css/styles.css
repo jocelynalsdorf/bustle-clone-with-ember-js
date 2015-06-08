@@ -1,5 +1,97 @@
 .title {
   color: #43434B;
-  font-family: 'Pathway Gothic One', sans-serif;}
+  font-family: 'Pathway Gothic One', sans-serif;
+  float:left;
+  width: 25%;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+  }
+
+
+/*.navbar {
+  float:left;
+  width: 62%;
+}*/
+
+nav.navbar.navbar-default {
+  width: 70%;
+  float: right;
+  border:none;
+  background-color: #fff;
+}
+
+.header-main {
+  border:1px lightgrey solid;
 
 }
+
+ul.nav.navbar-nav {
+  float: right;
+  color: #b2b1b1;
+
+}
+
+.icons {
+  padding-top:17px;
+  padding-bottom: 19px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+li {
+  border-left: 1px lightgrey solid;
+  border-right: 1px lightgrey solid;
+  font-family:Helvetica;
+  font-weight: 300;
+  font-size: 10px;
+  letter-spacing: 2.25px;
+  line-height:1.75em;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:  #b2b1b1;
+  line-height: 3.25em;
+
+}
+
+
+.navbar-default .navbar-nav > li > a:hover; {
+  color: #4c4c4c;
+
+
+}
+ .fa-facebook-square {
+  border-radius: 50%;
+}
+
+.row {
+  background-color: lightgrey;
+  height: 800px;
+  margin-top: 61px;
+
+  margin-right: -165px;
+  margin-left: -165px;
+}
+
+.main {
+  background-color: white;
+  margin-right: 50px;
+  height:800px;
+  margin-top: 90px;
+}
+
+.article {
+  background-color: green;
+  height: 200px;
+  width: 45%;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+.article1 {
+  background-color: green;
+  height: 200px;
+  width: 45%;
+  margin-left: 80px;}
