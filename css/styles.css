@@ -115,7 +115,7 @@ li {
   height: 200px;
   width: 45%;
   margin-right: 10px;
-  margin-left: 15px;
+  margin-left: 40px;
   height: 350px;
 }
 
@@ -132,7 +132,7 @@ li {
   height: 200px;
   width: 45%;
   margin-right: 10px;
-  margin-left: 15px;
+  margin-left: 40px;
   height: 350px;
 }
 
@@ -143,8 +143,20 @@ li {
   margin-left: 15px;
   height: 350px;
   }
+ 
+.article-caro {
+  /*background: url("../birdblue.jpeg");*/
+  width: 100%;
+  height:400px;
+}
 
-
+.caro {
+  width: 90%;
+  margin-left: 145px;
+  margin-top: 35px;
+  display: inline-block;
+  height:300px;
+}
 .icon-drop-down {
   position: absolute;
   top: 50px;
@@ -157,3 +169,15 @@ li {
 .nav >li {
   cursor: pointer;
 }
+.fa-arrow-left, .fa-arrow-right {
+  display: inline;
+}
+.fa-arrow-left {
+  position: absolute;
+  top:150px;
+}
+.fa-arrow-right:before {
+  
+  position: absolute;
+  left: 1138px;
+  top: 150px;
