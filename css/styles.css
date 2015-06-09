@@ -1,14 +1,27 @@
 .title {
-  color: #43434B;
+ 
   font-family: 'Pathway Gothic One', sans-serif;
   float:left;
   width: 25%;
   font-size: 40px;
   margin-top: 5px;
   margin-bottom: 10px;
+  text-decoration: none;
 
   }
+  .title a{
+     text-decoration: none;
+      color: #43434B;
 
+  }
+  .title a:hover{
+     text-decoration: none;
+      color: #b2b1b1;
+
+  }
+.hidden {
+  display: none;
+}
 
 /*.navbar {
   float:left;
