@@ -10,11 +10,17 @@
       <li>{{#link-to 'lifestyle'}}LIFESTYLE{{/link-to}}</li>
       <li>{{#link-to 'books'}}BOOKS{{/link-to}}</li>
       <li>{{#link-to 'explore'}}EXPLORE{{/link-to}}</li>
-      <li class="icons"><img src="facebook.png" alt="facebook" /><img src="twitter.png" alt="twitter" /><img src="pinterest.png" alt="pinterest" /></li>
-
-
+      <li class="icons" {{action 'hoverMenu' on="mouseEnter"}}><img src="facebook.png" alt="facebook" /><img src="twitter.png" alt="twitter" /><img src="pinterest.png" alt="pinterest" /></li>
     </ul>
   </nav>
+  
 </div>
+<div class="icon-drop-down hidden ">
+  
+    <span>Stuff</span>
+    <span>Stuff</span>
+    <span>Stuff</span>
+ 
+  </div>
   {{outlet}}
 </div>

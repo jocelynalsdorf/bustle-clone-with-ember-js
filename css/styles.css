@@ -119,23 +119,41 @@ li {
   height: 350px;
 }
 
-.article1 {
-  background: url("../neil.jpeg");
+.article2 {
+  background: url("../hurricane.jpg");
   height: 200px;
   width: 45%;
-  margin-left: 80px;
+  margin-left: 15px;
   height: 350px;
   }
 
-.article-single {
-  background: url("../neil.jpeg");
-  margin-top:20px;
+.article3 {
+  background: url("../welding.jpg");
+  height: 200px;
+  width: 45%;
+  margin-right: 10px;
+  margin-left: 15px;
   height: 350px;
-} 
-.article-text {
- 
-  
+}
 
- 
-  height: auto;
+.article4 {
+  background: url("../bird.jpg");
+  height: 200px;
+  width: 45%;
+  margin-left: 15px;
+  height: 350px;
+  }
+
+
+.icon-drop-down {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  height: 70px;
+  width: 100px;
+  background-color: red;
+
+}
+.nav >li {
+  cursor: pointer;
 }
