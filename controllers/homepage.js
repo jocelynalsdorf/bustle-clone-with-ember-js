@@ -22,8 +22,14 @@ Bustle.HomepageController = Ember.Controller.extend({
 			$(".article-full").addClass('hidden');
 		},
 		toggleImages: function() {
-			$(".fa-2x").click(function(){
-				
+			$(".fa-2x").click(function(event){
+				event.preventDefault();
+				$(".caro").attr({
+					src: $(".caro").attr('data-other-src'), 
+					'data-other-src': $(".caro").attr('data-src-other'), 
+					'data-src-other': $(".caro").attr('src')
+
+				})
 				
 			});
 		}
