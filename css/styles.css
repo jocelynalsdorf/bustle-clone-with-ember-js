@@ -88,7 +88,15 @@ li {
 
 
 }
+.headline-snippets a{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 12px;
+  font-size:18px;
+  max-width: 200px;
 
+}
 .article {
   background: url("../neil.jpeg");
   height: 200px;
@@ -100,9 +108,21 @@ li {
 
 .article1 {
   background: url("../neil.jpeg");
-  background-color: green;
   height: 200px;
   width: 45%;
   margin-left: 80px;
   height: 350px;
   }
+
+.article-single {
+  background: url("../neil.jpeg");
+  margin-top:20px;
+  height: 350px;
+} 
+.article-text {
+ 
+  
+
+ 
+  height: auto;
+}
